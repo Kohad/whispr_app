@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get "confessions/index"
+  get "confessions/create"
+  get "confessions/trending"
   devise_for :admins
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
