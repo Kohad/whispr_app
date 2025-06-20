@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "reactions/create"
   get "confessions/index"
   get "confessions/create"
   get "confessions/trending"
